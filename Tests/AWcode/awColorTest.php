@@ -2,7 +2,6 @@
 
 namespace Test\AWcode;
 
-require_once 'PHPUnit/Autoload.php';
 use PHPUnit\Framework\TestCase;
 
 class awColorTest extends TestCase
