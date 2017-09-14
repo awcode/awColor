@@ -1,0 +1,26 @@
+{
+    "name": "awcode/awcolor",
+    "description": "Color management class allowing usage and manipulation between rgb, hex, and hsl colours.",
+    "keywords": ["color", "rgb", "hex", "hsl"],
+    "homepage": "https://github.com/awcode/awColor",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "authors" : [
+      { "name": "Mark Walker", "homepage":"https://awcode.com", "role" : "creator" }
+    ],
+    "autoload": {
+      "classmap": ["src"]
+    },
+    "autoload-dev": {
+      "classmap": ["src"],
+      "psr-4": {
+            "AWcode\\": "src/AWcode",
+            "Tests\\": "Tests/"
+        }
+    }
+}
